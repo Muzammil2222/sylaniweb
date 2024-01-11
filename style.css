@@ -44,3 +44,94 @@
 .banner-right {
     margin-top: 50px;
 }
+.main-banner {
+    background: url(image/carousal_background.d77d94e….png);
+}
+header {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100% !important;
+}
+.logo {
+    width: 20% !important;
+}
+.logo img {
+    width: 100%;
+}
+.navbar {
+    margin-top: 15px;
+    width: 70%;
+}
+.navbar nav ul {
+    list-style: none;
+}
+.navbar nav ul li {
+    padding: 0 15px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-family: poppins;
+    display: inline;
+}
+.navbar nav ul li a{
+    color: #262626;
+    text-decoration: none;
+}
+.navbar nav ul li a:hover{
+    border-bottom: 1px solid #99CA3C;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header {
+    box-shadow: -18px -10px 33px 2px gray;
+}
+.navbar i{
+    display: none;
+}
+@media (max-width:576px){
+    .navbar i{
+        display: block;
+    }
+    .logo {
+        width: 40% !important;
+    }
+    .navbar nav ul li {
+        display: block;
+        padding: 5px 5px 0px;
+    }
+    .navbar i {
+        font-size: 28px;
+    }
+    .navbar ul {
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    .navbar nav ul li:hover {
+        border: none;
+        background: #99CA3C;
+    }
+    .navbar ul li {
+        text-align: center;
+    }
+    .navbar i {
+        margin-right: 30px;
+        text-align: right;
+    }
+    .navbar i:hover nav {
+        display: block !important;
+    }
+    .navbar nav {
+        box-shadow: 0px 3px 24px -2px #80808052;
+    }
+    .navbar nav {
+        display: none;
+    }
+    .navbar i:hover{
+        display: block !important;
+    }
+    .navbar i:hover nav {
+        display: block !important;
+    }
+
+}
